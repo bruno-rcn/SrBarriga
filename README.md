@@ -16,7 +16,8 @@
 <div id='sobre'/>
 
 ## :file_folder: Sobre o Projeto
->*Projeto referente ao curso de automação da Cod3r onde foi realizado testes do site Sr Barriga utilizando todos os conhecimentos adiquiridos no curso;*
+>*Projeto referente ao curso de automação da Cod3r onde foi realizado testes do site Sr Barriga utilizando todos os conhecimentos adiquiridos no curso;
+>Testes como: Login, Inserir conta, Alterar conta, entre outros;*
 
 *******
 
