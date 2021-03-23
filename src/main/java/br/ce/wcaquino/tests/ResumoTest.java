@@ -16,12 +16,11 @@ import br.ce.wcaquino.core.DriverFactory;
 import br.ce.wcaquino.pages.MenuPage;
 import br.ce.wcaquino.pages.ResumoPage;
 
-@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class ResumoTest extends BaseTest {
 	private MenuPage menuPage = new MenuPage();
 	private ResumoPage resumoPage = new ResumoPage();
 
-//	@Test
+	@Test
 	public void test1ExcluirMovimentacao(){
 		menuPage.acessarTelaResumo();
 		
@@ -46,6 +45,9 @@ public class ResumoTest extends BaseTest {
 //		} catch (NoSuchElementException e) {
 //			
 //		}
+		
+		resumoPage.selecionarAno("2016");
+		resumoPage.buscar();
 		
 		List<WebElement> elementosEncontrados = 
 				DriverFactory.getDriver().findElements(By.xpath("//*[@id='tabelaExtrato']/tbody/tr"));
