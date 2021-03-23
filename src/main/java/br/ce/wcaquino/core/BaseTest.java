@@ -26,8 +26,8 @@ public class BaseTest {
 	public void inicializa(){
 		page.acessarTelaInicial();
 		
-		page.setEmail("caterpie@pokemon.net");
-		page.setSenha("evoluilv10");
+		page.setEmail("wagner@costa");
+		page.setSenha("123456");
 		page.entrar();
 	}
 	
